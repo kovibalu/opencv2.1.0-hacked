@@ -42,6 +42,9 @@
 #include "cxcoretest.h"
 #include <stdio.h>
 
+// HACK
+#include <unistd.h>
+
 using namespace cv;
 
 class CV_IOTest : public CvTest

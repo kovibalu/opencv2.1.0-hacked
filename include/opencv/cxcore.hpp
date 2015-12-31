@@ -57,6 +57,9 @@
 #include <vector>
 #endif // SKIP_INCLUDES
 
+// HACK
+#include <stddef.h>
+
 namespace cv {
 
 #undef abs

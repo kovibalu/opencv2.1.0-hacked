@@ -46,6 +46,9 @@
 #include <vector>
 #include <iostream>
 
+// HACK
+#include <unistd.h>
+
 using namespace cv;
 using namespace cv::flann;
 

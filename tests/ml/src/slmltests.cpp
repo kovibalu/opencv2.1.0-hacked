@@ -43,6 +43,9 @@
 #include <iostream>
 #include <fstream>
 
+// HACK
+#include <unistd.h>
+
 CV_SLMLTest::CV_SLMLTest( const char* _modelName, const char* _testName ) :
     CV_MLBaseTest( _modelName, _testName, "load-save" )
 {
